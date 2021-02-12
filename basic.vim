@@ -21,7 +21,7 @@ set encoding=utf-8
 set cursorline      " highlight cursor line
 set cursorcolumn    " highlight cursor column
 highlight CursorLine   cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=darkblue guifg=NONE
-highlight CursorColumn cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=darkblue guifg=NONE
+" highlight CursorColumn cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=darkblue guifg=NONE
 
 " Cursor motion
 set scrolloff=5     " set padding for up and down white line space
