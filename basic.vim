@@ -19,7 +19,7 @@ set encoding=utf-8
 " Cursor highlight
 """""
 set cursorline      " highlight cursor line
-set cursorcolumn    " highlight cursor column
+" set cursorcolumn    " highlight cursor column
 highlight CursorLine   cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=darkblue guifg=NONE
 " highlight CursorColumn cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=darkblue guifg=NONE
 
@@ -39,10 +39,10 @@ set expandtab       " convert tab to spaces
 set autoindent      " next line indent as currnet line
 
 " Automatically closing braces
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+inoremap <nowait> " ""<left>
+inoremap <nowait> ' ''<left>
+inoremap <nowait> ( ()<left>
+inoremap <nowait> [ []<left>
+inoremap <nowait> { {}<left>
+inoremap <nowait> {<CR> {<CR>}<ESC>O
+inoremap <nowait> {;<CR> {<CR>};<ESC>O
