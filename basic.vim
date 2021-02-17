@@ -18,10 +18,7 @@ set encoding=utf-8
 """""
 " Cursor highlight
 """""
-set cursorline      " highlight cursor line
-" set cursorcolumn    " highlight cursor column
-highlight CursorLine   cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=darkblue guifg=NONE
-" highlight CursorColumn cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=darkblue guifg=NONE
+" No need for using custom settings. Use color-scheme plugin is more effient
 
 " Cursor motion
 set scrolloff=5     " set padding for up and down white line space
@@ -52,3 +49,5 @@ nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
+
+nnoremap <C-n> :NERDTree<CR>
