@@ -37,6 +37,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 " My custom plugins:
 Plugin '907th/vim-auto-save'
+Plugin 'preservim/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 
 
