@@ -39,9 +39,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin '907th/vim-auto-save'
 Plugin 'preservim/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'ryanoasis/vim-devicons'
 
 Plugin 'flazz/vim-colorschemes'
-
 
 
 " All of your Plugins must be added before the following line
