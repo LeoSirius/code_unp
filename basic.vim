@@ -26,7 +26,6 @@ set scrolloff=5     " set padding for up and down white line space
 " Handle trailing spaces
 set list                        " show tab as ^|, line end as $
 set listchars=tab:>-,trail:-    " Show tab as >-, trailing spaces as -
-set listchars+=space:.
 
 " Search
 set hlsearch        " Highlight all search results
