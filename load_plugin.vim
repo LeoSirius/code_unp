@@ -39,7 +39,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin '907th/vim-auto-save'
 Plugin 'preservim/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'ryanoasis/vim-devicons'
+
 
 Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-airline/vim-airline'

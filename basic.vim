@@ -1,4 +1,4 @@
-" Don't try to be vi compatible
+": Don't try to be vi compatible
 set nocompatible
 
 " Turn on syntax highlighting
@@ -51,3 +51,5 @@ nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
 
 nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+
