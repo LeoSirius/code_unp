@@ -42,6 +42,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'ryanoasis/vim-devicons'
 
 Plugin 'flazz/vim-colorschemes'
+Plugin 'vim-airline/vim-airline'
 
 
 " All of your Plugins must be added before the following line
