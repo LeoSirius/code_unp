@@ -20,6 +20,7 @@ let NERDTreeIgnore = ['\.pyc$']  " 过滤所有.pyc文件不显示
 "Making it prettier
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+let NERDTreeShowHidden=1
 
 
 colorscheme molokai
