@@ -35,21 +35,3 @@ set softtabstop=2   " Number of spaces per Tab
 set expandtab       " convert tab to spaces
 " set autoindent      " next line indent as currnet line
 
-" Mapping
-" Automatically closing braces
-" inoremap <nowait> " ""<left>
-" inoremap <nowait> ' ''<left>
-" inoremap <nowait> ( ()<left>
-" inoremap <nowait> [ []<left>
-" inoremap <nowait> { {}<left>
-" inoremap <nowait> {<CR> {<CR>}<ESC>O
-" inoremap <nowait> {;<CR> {<CR>};<ESC>O
-" Use ctrl-[hjkl] to select the active split!
-nmap <silent> <c-k> :wincmd k<CR>
-nmap <silent> <c-j> :wincmd j<CR>
-nmap <silent> <c-h> :wincmd h<CR>
-nmap <silent> <c-l> :wincmd l<CR>
-
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-
