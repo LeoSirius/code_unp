@@ -16,7 +16,7 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
-let NERDTreeIgnore = ['\.pyc$']  " 过滤所有.pyc文件不显示
+let NERDTreeIgnore = ['\.pyc$', '\.swp$', '\.swo']  " filter out thses files
 "Making it prettier
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
