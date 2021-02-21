@@ -20,7 +20,7 @@ set encoding=utf-8
 """""
 " No need for using custom settings. Use color-scheme plugin is more effient
 set cursorline
-hi CursorLine term=bold cterm=bold guibg=Grey40
+hi CursorLine term=NONE cterm=NONE guibg=Grey40
 " hi CursorLine   cterm=NONE ctermbg=8 ctermfg=NONE
 
 " Cursor motion
