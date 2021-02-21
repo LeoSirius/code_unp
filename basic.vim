@@ -20,8 +20,8 @@ set encoding=utf-8
 """""
 " No need for using custom settings. Use color-scheme plugin is more effient
 set cursorline
-" hi CursorLine term=bold cterm=bold guibg=Grey40
-hi CursorLine   cterm=NONE ctermbg=8 ctermfg=NONE
+hi CursorLine term=bold cterm=bold guibg=Grey40
+" hi CursorLine   cterm=NONE ctermbg=8 ctermfg=NONE
 
 " Cursor motion
 set scrolloff=8     " set padding for up and down white line space
