@@ -20,10 +20,11 @@ set encoding=utf-8
 """""
 " No need for using custom settings. Use color-scheme plugin is more effient
 set cursorline
-hi CursorLine term=bold cterm=bold guibg=Grey40
+" hi CursorLine term=bold cterm=bold guibg=Grey40
+hi CursorLine   cterm=NONE ctermbg=8 ctermfg=NONE
 
 " Cursor motion
-set scrolloff=5     " set padding for up and down white line space
+set scrolloff=8     " set padding for up and down white line space
 
 " Handle trailing spaces
 set list                        " show tab as ^|, line end as $
